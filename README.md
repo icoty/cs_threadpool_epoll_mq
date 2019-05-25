@@ -39,13 +39,13 @@ Kafka、ActiveMQ、RabbitMQ和RockerMQ都是消息队列的典型，每一种都
  
 ```bash
 .
-├── client					 // 客户端Demo
+├── client // 客户端Demo
 │   ├── Client.cc
 │   ├── Client.exe
-│   ├── client.sh	 // 进入该目录下启动Client Demo: sh client.sh
+│   ├── client.sh // 进入该目录下启动Client Demo: sh client.sh
 │   ├── Log4func.cc // 引入日志模块重新疯转
 │   ├── Log4func.h
-│   └── Makefile	 // 编译方式：make
+│   └── Makefile // 编译方式：make
 ├── conf
 │   └── my.conf // IP,Port配置文件, 从这里进行修改
 ├── include // 头文件
@@ -101,8 +101,8 @@ Kafka、ActiveMQ、RabbitMQ和RockerMQ都是消息队列的典型，每一种都
 
 ## 参考文献
 
-[1] UNIX环境高级编程第3版
-[2] [cpp reference](https://en.cppreference.com/w/)
-[3] [UML时序图](https://www.cnblogs.com/downey/p/4890830.html)
-[4] [Log4cpp官网下载](https://sourceforge.net/projects/log4cpp/)
-[5] [Log4cpp安装](https://blog.csdn.net/sinat_26003209/article/details/46522953)
+[1] UNIX环境高级编程第3版<br>
+[2] [cpp reference](https://en.cppreference.com/w/)<br>
+[3] [UML时序图](https://www.cnblogs.com/downey/p/4890830.html)<br>
+[4] [Log4cpp官网下载](https://sourceforge.net/projects/log4cpp/)<br>
+[5] [Log4cpp安装](https://blog.csdn.net/sinat_26003209/article/details/46522953)<br>
